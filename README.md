@@ -1,2 +1,3 @@
-# Curso-Proz---AWS
-Repositório com as atividades do curso proz + AWS
+# Curso Proz + AWS
+_Repositório com as atividades do curso proz + AWS_
+
