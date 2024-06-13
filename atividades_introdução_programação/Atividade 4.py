@@ -14,6 +14,15 @@ def calculadora(num1, num2, operador):
       'Erro: Divisão por zero'
     else:
       return 0
+      
+num1 = float(input("Digite o primeiro número: "))
+num2 = float(input("Digite o segundo número: "))
+print("Escolha a operação:")
+print("1: Soma")
+print("2: Subtração")
+print("3: Multiplicação")
+print("4: Divisão")
+operador = int(input("Digite o número da operação: "))
 
-print(calculadora(10, 5, 1))  
-print(calculadora(10, 5, 5))  
+resultado = calculadora(num1, num2, operador)
+print(f"O resultado é: {resultado}")
